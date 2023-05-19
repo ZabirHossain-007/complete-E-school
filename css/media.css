@@ -1,0 +1,497 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+      /* header starts */
+      header{
+        padding: 0 ;
+    }
+
+    /* header ends */
+
+    /* menu design */
+.menu ul li a{
+    padding: 0 0 5px 10px !important;
+} 
+/* logo image design */
+.logo{
+    width: 170px;
+}
+/* banner starts from here */
+.banner{
+    padding: 40px 0 60px;
+    background: #F0FFF0;
+}
+.b-text{
+    text-align: center;
+    
+}
+
+.b-image{
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.b-text h1{
+   padding: 0;
+    font-size: 30px;
+    line-height: 40px;
+}
+.b-text h1 span{
+    font-size: 30px; 
+    line-height: 40px;
+  
+}
+
+.bp2{
+    line-height: 24px;
+    padding: 0;
+}
+.btn-g{
+    margin: 15px auto 0;
+  
+}
+
+
+
+
+
+/* banner ends here */
+
+/* feature starts  */
+
+.feature{
+    padding: 16px 0 60px;
+}
+.f-card{
+    margin-top: 24px;
+    padding: 50px 0 45px;
+}
+
+.f-img{
+    width: 55px;
+    height: 75px;
+    
+}
+
+
+/* feature ends */
+/* course start here */
+.c-title h1{
+    font-size: 30px;
+    line-height: 40px;
+}
+/* single card */
+.c-padding {
+    padding-bottom: 60px;
+}
+.c-course {
+    margin: 25px 0 0;
+    padding: 10px 10px 20px;
+}
+.icon {
+    font-size: 16px;
+}
+.c-date {
+    margin-left: 4px;
+    font-size: 15px;
+   
+}
+/* course ends here */
+
+/*  testimony carousel starts from here */
+.c-padding {
+    padding-bottom: 60px;
+}
+
+
+.carouselC{
+    margin-top: 20px;
+}
+.cIndecator{
+    margin-bottom: -2rem;
+    
+}
+.sliderImg{
+    margin-left: -30px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.sliderImg img{
+    margin: 0;
+
+}
+.sliderText p{
+   text-align: justify;
+}
+
+/* testimony carousel ends here */
+
+/* footer starts from here */
+footer{
+    padding-bottom: 60px;
+}
+.f-1{   
+    margin-top: 30px; 
+
+}
+.f-1 p{   
+    font-size: 15px !important;
+    text-align: center;
+
+}
+
+.f-2{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.f-2 p{
+    margin-top: 8px;
+    font-size: 15px !important;
+}
+.colC{
+    display: none;
+}
+
+
+/* footer ends here */
+
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+      /* header starts */
+      header{
+        padding: 0;
+    }
+
+    /* header ends */
+
+    /* menu design */
+.menu ul li a{
+    padding: 0 0 5px 10px !important;
+}
+
+
+/* banner starts from here */
+.banner{
+    padding: 40px 0 60px;
+    background: #F0FFF0;
+}
+.b-text{
+    text-align: center;
+    
+}
+
+.b-text h1{
+    padding-right: 70px;
+    padding-left: 65px;
+    font-size: 35px;
+    line-height: 45px;
+}
+.b-text h1 span{
+    font-size: 35px; 
+    line-height: 45px;
+  
+}
+
+.bp2{
+    line-height: 24px;
+    padding: 0 50px;
+}
+.btn-g{
+    margin: 15px auto 0;
+  
+}
+
+
+
+.b-image{
+    padding: 0 70px;
+    margin-bottom: 30px;
+}
+
+/* banner ends here */
+/* feature starts  */
+
+.feature{
+    padding: 16px 0 60px;
+}
+.f-card{
+    margin-top: 24px;
+}
+
+.f-img{
+    width: 55px;
+    height: 75px;
+    
+}
+
+
+/* feature ends */
+/* course start here */
+.c-title h1{
+    font-size: 30px;
+    line-height: 40px;
+}
+/* single card */
+.c-padding {
+    padding-bottom: 60px;
+}
+.c-course {
+    margin: 25px 60px 0;
+}
+/* course ends here */
+/*  testimony carousel starts from here */
+.c-padding{
+    padding-bottom: 60px;
+}
+.carouselC{
+    margin-top: 40px;
+}
+.cIndecator{
+    margin-bottom: -3rem;
+    
+}
+.sliderImg{
+    width: 100%;
+}
+.sliderImg img{
+    margin: 0;
+ 
+}
+
+.sliderText p{
+    margin-top: 4px;
+    padding-left: 60px;
+  
+}
+
+/* testimony carousel ends here */
+/* footer starts from here */
+footer{
+    padding-bottom: 70px;
+}
+.f-1{   
+    margin-top: 45px; 
+
+}
+
+.f-2{
+    margin-top: 45px;
+    margin-left: 20px;
+}
+.f-2 p{
+    margin-top: 8px;
+}
+
+
+/* footer ends here */
+
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    /* header starts */
+    header{
+        padding: 10px 0;
+    }
+
+    /* header ends */
+
+    /* menu design */
+.menu ul li a{
+    padding: 0 0 5px 10px !important;
+}
+
+/* banner starts from here */
+.banner{
+    padding: 40px 0 60px;
+    background: #F0FFF0;
+}
+.b-text{
+    text-align: center;
+}
+
+.b-text h1{
+    padding: 0 100px 0;
+    line-height: 50px;
+}
+
+.bp2{
+    line-height: 24px;
+    padding: 0 75px;
+}
+.btn-g{
+    margin: 15px auto 0;
+  
+}
+
+
+
+.b-image{
+    padding: 0 100px;
+    margin-bottom: 30px;
+}
+
+
+/* banner ends here */
+
+/* feature starts  */
+
+.feature{
+    padding: 16px 0 80px;
+}
+.f-card{
+    margin-top: 24px;
+}
+
+.f-img{
+    width: 55px;
+    height: 75px;
+    
+}
+
+
+/* feature ends */
+
+/* course start here */
+.c-padding {
+    padding-bottom: 80px;
+}
+.c-course {
+    margin: 40px 130px 0;
+}
+/* course ends here */
+
+/*  testimony carousel starts from here */
+.c-padding{
+    padding-bottom: 70px;
+}
+.carouselC{
+    margin-top: 40px;
+}
+.cIndecator{
+    margin-bottom: -2rem;
+    
+}
+
+
+.sliderText p{
+    margin-top: 4px;
+}
+
+/* testimony carousel ends here */
+
+/* footer starts from here */
+footer{
+    background-color: #010101;
+    padding-bottom: 80px;
+}
+.f-1{   
+    margin-top: 60px; 
+
+}
+
+.f-2{
+    margin-top: 50px;
+}
+
+
+/* footer ends here */
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* feature starts  */
+    .f-card{
+        padding: 50px 0 45px;
+    }
+
+    .f-img{
+        width: 50px;
+        height: 65px;
+        
+    }
+   
+
+    /* feature ends */
+
+    /* course start from here */
+    /* single card start */
+    .c-course {
+        padding: 10px 10px 20px;
+        
+    
+    }
+
+    .icon {
+        font-size: 16px;
+    }
+    .c-date {
+        margin-left: 4px;
+        font-size: 15px;
+       
+    }
+    /* single card ends */
+    /* course ends here */
+
+    /*  testimony carousel starts from here */
+.sliderText p{
+    margin: 2px 0 0 50px !important;
+}
+
+/* testimony carousel ends here */
+
+/* footer starts from here */
+footer{
+    padding-bottom: 90px;
+}
+.f-1{   
+    margin-top: 60px; 
+
+}
+.f-2{
+    margin-left: 10px;
+}
+.f-2 p{
+    margin-top: 10px;
+}
+
+
+/* footer ends here */
+
+ }
+
+/* Extra Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    /*  testimony carousel starts from here */
+
+.sliderText p{
+    margin: 5px 0 0 18px;
+    font-size: 18px;
+}
+
+/* testimony carousel ends here */
+
+/* footer starts from here */
+.f-2{
+    margin-left: 40px;
+}
+.f-2 p{
+    margin-top: 8px;
+}
+
+
+/* footer ends here */
+
+ }
+
+ /* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    .sliderText p{
+        margin: 8px 0 0 7px;
+        font-size: 20px;
+    }
+
+ }

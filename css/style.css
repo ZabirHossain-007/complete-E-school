@@ -1,0 +1,349 @@
+/* fonts and family  start */
+@font-face {
+    font-family: poppins-regular;
+    src: url(../fonts/poppins-regular.ttf);
+}
+@font-face {
+    font-family: poppins-medium;
+    src: url(../fonts/poppins-medium.ttf);
+}
+@font-face {
+    font-family: poppins-bold;
+    src: url(../fonts/poppins-bold.ttf);
+}
+@font-face {
+    font-family: roboto-regular ;
+    src: url(../fonts/roboto-regular.ttf);
+}
+/* fonts and family ends */
+
+*body{
+    font-family: 'poppins-regular';
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+/* header starts */
+header{
+    background-color: #f0fff0;
+    padding: 15px 0;
+}
+.cNav{}
+/* logo image design */
+.logo{
+    width: 200px;
+}
+/* menu design */
+.navt:focus{
+    box-shadow: none;
+
+}
+
+.menu{}
+.menu ul li a{
+    color: #000000;
+    padding: 0 20px !important;
+    transition: .4s;
+}
+.menu ul li a:hover{
+    color: #fd511a !important;
+}
+
+
+.btn-c{
+    font-size: 16px;
+    font-family: 'roboto-regular';
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 19px;  
+    background: #21B573;
+    border-radius: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-s{
+    width: 104px;
+    height: 43px;
+    margin-left: 10px;
+   
+}
+.btn-c:hover{
+    color: #ffffff;
+    background-color: #fd511a;
+}
+/* header ends */
+
+/* Banner starts  */
+.banner{
+    padding: 40px 0 60px;
+    background: #F0FFF0;
+}
+.b-text{}
+.bp1{
+   color: #FD511A;
+   line-height: 24px;
+
+}
+.b-text h1{
+    margin: 10px 0 20px;
+    padding-right: 45px;
+    font-family: 'poppins-medium';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.b-text h1 span{
+    font-family: 'poppins-medium';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #21B573;
+}
+.bp2{
+    line-height: 36px;
+}
+.btn-g{
+    margin-top: 15px;
+    width: 155px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.b-image{}
+.b-image img{}
+/* Banner ends */
+
+/* feature starts  */
+
+.feature{
+    padding: 45px 0 100px;
+}
+.f-card{
+    padding: 60px 0 55px;
+    background-color: #F0FFF0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.f-card:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1)
+    
+}
+
+.f-img{
+    margin: 0 auto;
+    width: 65px;
+    height: 85px;
+    
+}
+.f-img img{}
+.f-card h2{
+    margin-top: 22px;
+    font-family: 'poppins-medium';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.f-card p{}
+/* feature ends  */
+
+/* courses starts from here */
+.c-padding{
+    padding-bottom: 100px;
+}
+.courses{
+
+}
+.c-title{}
+.c-title h1{
+    font-family: 'poppins-bold'; 
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    
+}
+
+/* single card starts  */
+.c-course{
+    margin-top: 60px;
+    padding: 25px 20px 30px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+.c-img{}
+.c-img img{ 
+    border-radius: 10px;
+    width: 100%;
+}
+
+.c-h2{
+    margin: 20px 0 5px;
+    font-family: 'poppins-medium';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+.c-p{
+    color: #585859;
+    line-height: 24px;
+}
+.btn-b{
+    margin: 20px 0 35px;
+    width: 137px;
+    height: 35px;
+}
+.c-course a{}
+
+/* alternative card footer code */
+/* .c-footer{
+    margin-left: -30px;
+ 
+}
+.c-footer ul{
+    list-style-type:none;
+}
+.c-footer ul li:first-child{
+    
+}
+.c-footer ul li i{
+}
+.icon{
+    font-size: 20px;
+}
+.c-date{
+    margin-left: 8px;
+    font-family: 'poppins-medium';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color:#585859 ; 
+    
+} */
+
+/* alternative card footer code */
+
+.c-footer{}
+.c-left{}
+.c-left ul{}
+.c-left ul li{}
+.c-left ul li img, .c-right ul li img{
+    height: 18px;
+}
+.c-left ul li span, .c-right ul li span{
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.c-right{}
+.c-right ul{}
+.c-right ul li{}
+.c-right ul li img{}
+.c-right ul li span{}
+/* courses ends here */
+
+/*  testimony carousel starts from here */
+.carouselC{
+    margin-top: 50px;
+}
+.cIndecator{
+    margin-bottom: -4rem;
+    
+}
+.sliderImg{
+    width: 100%;
+}
+.sliderImg img{
+    margin: -7px 0 0px 45px;
+    background: #C4C4C4;
+    border-radius: 50%;
+}
+.sliderText{}
+.sliderText p{
+    margin-top: 12px;
+    color: #000000;
+}
+
+/* testimony carousel ends here */
+
+
+/* footer starts from here */
+footer{
+    background-color: #010101;
+    padding-bottom: 100px;
+}
+.f-1{   
+    margin-top: 60px; 
+
+}
+.f-1 p{    
+    color: white;
+    text-align: justify;
+}
+.f-2{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.f-2 p{
+    margin-top: 12px;
+}
+.h-3{
+    font-family: 'poppins-bold';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+
+}
+.footerA{
+    color: white;
+    text-decoration: none;
+}
+
+/* copyright section starts */
+#copyright{
+   margin-top: 80px !important; 
+    background-color:#000000;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+    justify-content: center;
+    padding-top: 10px;
+
+
+}
+.fa-copyright{
+    font-size: 22px !important;
+    color: #21B573;
+    
+}
+
+#design{
+    margin: 0 3px 0 5px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+
+.fa-bolt{
+    font-size: 22px !important;
+    color: #21B573;
+    
+}
+
+#author{
+    margin-left: 3px;
+    font-size: 18px;
+    font-family: 'poppins-bold';
+    font-weight: 700;
+    color: white;
+}
+#author a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#author a:hover{
+   cursor: pointer;
+   color: #fd511a;
+}
+/* footer ends here */
